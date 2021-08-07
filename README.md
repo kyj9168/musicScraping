@@ -1,7 +1,7 @@
 #### 실행방법
 
 **[ 인자값 넘겨서 실행하기 ]** npm start melon genie vibe  
-**[ 기본 지정된 배열로 실행 ]** npm start
+**[ 기본 지정된 배열로 실행 ]** npm start  
 **[ 테스트 코드 실행 ]** npm test
 
 ---
