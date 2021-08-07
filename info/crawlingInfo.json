@@ -1,0 +1,23 @@
+{
+    "melon": {
+        "url": "https://www.melon.com/chart/index.htm",
+        "bodyPath": "#frm > div > table > tbody > tr",
+        "namePath": "td > div > div > div.ellipsis.rank01 > span > a",
+        "singerPath": "td > div > div > div.ellipsis.rank02 > span > a",
+        "albumPath": "td > div > div > div.ellipsis.rank03 > a"
+    },
+    "genie": {
+        "url": "https://www.genie.co.kr/chart/top200",
+        "bodyPath": "#body-content > div.newest-list > div > table > tbody > tr",
+        "namePath": "td.info > a.title.ellipsis",
+        "singerPath": "td.info > a.artist.ellipsis",
+        "albumPath": "td.info > a.albumtitle.ellipsis"
+    },
+    "vibe": {
+        "url": "https://vibe.naver.com/chart/total",
+        "bodyPath": "#content > div.track_section > div:nth-child(1) > div > table > tbody > tr",
+        "namePath": "td.song > div.title_badge_wrap > span > a",
+        "singerPath": "td.artist > span > span > span > a > span",
+        "albumPath": "td.album > a"
+    }
+}
